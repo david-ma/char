@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Space For Your Mind</title>
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+  <!-- Google fonts-->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shadows+Into+Light+Two&display=swap"
+    rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="css/styles.css" rel="stylesheet" />
+  <link href="css/spaceforyourmind.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="#page-top"><img src="assets/SFYM-logo.svg" alt="Space For Your Mind" /></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars ms-1"></i>
+    </button>
+
+
+
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#values">What I do</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#introduction">About</a>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Masthead-->
+<header class="masthead" style="">
+  <div class="container">
+    <div class="masthead-heading text-uppercase">
+      <img id="masthead-logo" src="assets/SFYM-logo.svg" alt="Space For Your Mind" />
+    </div>
+    <div class="masthead-subheading">Melbourne Professional Cleaning and Organising Service</div>
+    <a class="btn btn-primary btn-xl text-uppercase" href="#values">Tell Me More</a>
+  </div>
+</header>
+  <section class="page-section" id="introduction">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 text-center">
+          <h2 class="section-heading text-uppercase">Introduction</h2>
+          <p>My name is Char (they/he), and this is Space For Your Mind, your new favourite trans-owned and operated inclusive cleaning and organising service. </p>
+          <p>I first entered the cleaning and organising industry after my mum died in 2022, and I was left as the executor of her estate. As I was sorting through generations of sentimental memories, I started to closely consider the human relationship to collecting, consumption, and waste. Why do we hold on to things? What compels us to buy things we don’t need?</p>
+          <p>Add this to my lifelong interest in hoarding disorder, and you have the foundation of my business. I am here to help people confront their relationship with their belongings, reshape their living spaces, and help to make sense of their habits in the context of mental health. I also LOVE a cleaning transformation and one of my favourite things to do is restore a challenging space! </p>
+          <p>I am specifically here to help the queer and neurodivergent community - I have noticed there is a big gap when it comes to organising and cleaning services for us, and I want to fill it! I am a trans and autistic individual myself and my solutions come from lived experience. My services are accessible for everybody, regardless of gender, background, or age. This is a safe space and you can be happy in the knowledge that you will be listened to and respected at every point in the process.</p>
+          <p>I’m really looking forward to meeting and helping you!</p>
+        </div>
+        <div class="col-md-5">
+          <img src="/assets/img/char.jpeg" alt="Char" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+<style>
+  div.horizontal-scroll {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+
+    > * {
+      scroll-snap-align: start;
+      margin-top: 1rem;
+      margin-right: 1rem;
+    }
+  }
+</style>
+
+<section class="page-section bg-dark" id="portfolio">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="section-heading text-uppercase">Services</h2>
+        <h3 class="section-subheading text-muted">Services to help you get your space in order.</h3>
+      </div>
+  
+      <div id="servicesCarousel" class="carousel slide d-block d-md-none" data-bs-ride="false">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a class="d-block" data-bs-toggle="modal" href="#modal-decluttering">
+                <div class="ratio ratio-1x1">
+                  <img class="w-100 h-100 object-cover" src="assets/img/portfolio/decluttering.jpg" alt="Decluttering and Organising">
+                </div>
+              </a>
+              <div class="mt-2 text-center">
+                <h5 class="mb-1">Decluttering and Organising</h5>
+                <p class="text-muted mb-0"></p>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <a class="d-block" data-bs-toggle="modal" href="#modal-deep-cleaning">
+                <div class="ratio ratio-1x1">
+                  <img class="w-100 h-100 object-cover" src="assets/img/portfolio/deep-cleaning.jpg" alt="Deep Cleaning">
+                </div>
+              </a>
+              <div class="mt-2 text-center">
+                <h5 class="mb-1">Deep Cleaning</h5>
+                <p class="text-muted mb-0"></p>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <a class="d-block" data-bs-toggle="modal" href="#modal-hoarding">
+                <div class="ratio ratio-1x1">
+                  <img class="w-100 h-100 object-cover" src="assets/img/portfolio/hoarding.jpg" alt="Hoarding and Extreme Clutter">
+                </div>
+              </a>
+              <div class="mt-2 text-center">
+                <h5 class="mb-1">Hoarding and Extreme Clutter</h5>
+                <p class="text-muted mb-0"></p>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <a class="d-block" data-bs-toggle="modal" href="#modal-deceased-estate">
+                <div class="ratio ratio-1x1">
+                  <img class="w-100 h-100 object-cover" src="assets/img/portfolio/deceased-estate.jpg" alt="Deceased Estate">
+                </div>
+              </a>
+              <div class="mt-2 text-center">
+                <h5 class="mb-1">Deceased Estate</h5>
+                <p class="text-muted mb-0"></p>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <a class="d-block" data-bs-toggle="modal" href="#modal-end-of-lease">
+                <div class="ratio ratio-1x1">
+                  <img class="w-100 h-100 object-cover" src="assets/img/portfolio/end-of-lease.jpg" alt="Online Help">
+                </div>
+              </a>
+              <div class="mt-2 text-center">
+                <h5 class="mb-1">Online Help</h5>
+                <p class="text-muted mb-0"></p>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <a class="d-block" data-bs-toggle="modal" href="#modal-downsizing">
+                <div class="ratio ratio-1x1">
+                  <img class="w-100 h-100 object-cover" src="assets/img/portfolio/downsizing.jpg" alt="Downsizing and Relocation">
+                </div>
+              </a>
+              <div class="mt-2 text-center">
+                <h5 class="mb-1">Downsizing and Relocation</h5>
+                <p class="text-muted mb-0"></p>
+              </div>
+            </div>
+        </div>
+      </div>
+  
+      <div class="d-flex justify-content-center align-items-center gap-3 mt-2 d-block d-md-none">
+        <button class="btn btn-dark" type="button" data-bs-target="#servicesCarousel" data-bs-slide="prev" aria-label="Previous">‹</button>
+        <a id="mobileDetailsLink" class="btn btn-outline-dark" href="#modal-decluttering" data-bs-toggle="modal">Details</a>
+        <button class="btn btn-dark" type="button" data-bs-target="#servicesCarousel" data-bs-slide="next" aria-label="Next">›</button>
+      </div>
+  
+      <script>
+        (function(){
+          const carousel = document.getElementById('servicesCarousel');
+          const details = document.getElementById('mobileDetailsLink');
+          if (!carousel || !details) return;
+          const updateLink = () => {
+            const active = carousel.querySelector('.carousel-item.active a[data-bs-toggle="modal"]');
+            if (!active) return;
+            details.setAttribute('href', active.getAttribute('href'));
+          };
+          carousel.addEventListener('slid.bs.carousel', updateLink);
+          updateLink();
+        })();
+      </script>
+  
+      <div class="row portfolio-grid d-none d-md-flex">
+          <div class="col-12 col-md-4 mb-4">
+            <!-- Portfolio item 1-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#modal-decluttering">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <svg class="svg-inline--fa fa-plus fa-3x" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M240 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H176V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H384c17.7 0 32-14.3 32-32s-14.3-32-32-32H240V80z"></path></svg><!-- <i class="fas fa-plus fa-3x"></i> Font Awesome fontawesome.com -->
+                  </div>
+                </div>
+                <div class="ratio ratio-1x1">
+                  <img class="w-100 h-100 object-cover" src="assets/img/portfolio/decluttering.jpg" alt="Decluttering and Organising">
+                </div>
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Decluttering and Organising</div>
+                <div class="portfolio-caption-subheading text-muted">
+                  
+                </div>
+              </div>
+            </div>
+          </div>        <div class="col-12 col-md-4 mb-4">
+            <!-- Portfolio item 1-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#modal-deep-cleaning">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <svg class="svg-inline--fa fa-plus fa-3x" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M240 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H176V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H384c17.7 0 32-14.3 32-32s-14.3-32-32-32H240V80z"></path></svg><!-- <i class="fas fa-plus fa-3x"></i> Font Awesome fontawesome.com -->
+                  </div>
+                </div>
+                <div class="ratio ratio-1x1">
+                  <img class="w-100 h-100 object-cover" src="assets/img/portfolio/deep-cleaning.jpg" alt="Deep Cleaning">
+                </div>
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Deep Cleaning</div>
+                <div class="portfolio-caption-subheading text-muted">
+                  
+                </div>
+              </div>
+            </div>
+          </div>        <div class="col-12 col-md-4 mb-4">
+            <!-- Portfolio item 1-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#modal-hoarding">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <svg class="svg-inline--fa fa-plus fa-3x" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M240 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H176V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H384c17.7 0 32-14.3 32-32s-14.3-32-32-32H240V80z"></path></svg><!-- <i class="fas fa-plus fa-3x"></i> Font Awesome fontawesome.com -->
+                  </div>
+                </div>
+                <div class="ratio ratio-1x1">
+                  <img class="w-100 h-100 object-cover" src="assets/img/portfolio/hoarding.jpg" alt="Hoarding and Extreme Clutter">
+                </div>
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Hoarding and Extreme Clutter</div>
+                <div class="portfolio-caption-subheading text-muted">
+                  
+                </div>
+              </div>
+            </div>
+          </div>        <div class="col-12 col-md-4 mb-4">
+            <!-- Portfolio item 1-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#modal-deceased-estate">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <svg class="svg-inline--fa fa-plus fa-3x" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M240 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H176V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H384c17.7 0 32-14.3 32-32s-14.3-32-32-32H240V80z"></path></svg><!-- <i class="fas fa-plus fa-3x"></i> Font Awesome fontawesome.com -->
+                  </div>
+                </div>
+                <div class="ratio ratio-1x1">
+                  <img class="w-100 h-100 object-cover" src="assets/img/portfolio/deceased-estate.jpg" alt="Deceased Estate">
+                </div>
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Deceased Estate</div>
+                <div class="portfolio-caption-subheading text-muted">
+                  
+                </div>
+              </div>
+            </div>
+          </div>        <div class="col-12 col-md-4 mb-4">
+            <!-- Portfolio item 1-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#modal-end-of-lease">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <svg class="svg-inline--fa fa-plus fa-3x" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M240 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H176V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H384c17.7 0 32-14.3 32-32s-14.3-32-32-32H240V80z"></path></svg><!-- <i class="fas fa-plus fa-3x"></i> Font Awesome fontawesome.com -->
+                  </div>
+                </div>
+                <div class="ratio ratio-1x1">
+                  <img class="w-100 h-100 object-cover" src="assets/img/portfolio/end-of-lease.jpg" alt="Online Help">
+                </div>
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Online Help</div>
+                <div class="portfolio-caption-subheading text-muted">
+                  
+                </div>
+              </div>
+            </div>
+          </div>        <div class="col-12 col-md-4 mb-4">
+            <!-- Portfolio item 1-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#modal-downsizing">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <svg class="svg-inline--fa fa-plus fa-3x" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M240 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H176V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H384c17.7 0 32-14.3 32-32s-14.3-32-32-32H240V80z"></path></svg><!-- <i class="fas fa-plus fa-3x"></i> Font Awesome fontawesome.com -->
+                  </div>
+                </div>
+                <div class="ratio ratio-1x1">
+                  <img class="w-100 h-100 object-cover" src="assets/img/portfolio/downsizing.jpg" alt="Downsizing and Relocation">
+                </div>
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Downsizing and Relocation</div>
+                <div class="portfolio-caption-subheading text-muted">
+                  
+                </div>
+              </div>
+            </div>
+          </div>    </div>
+  
+        <!-- Scoped responsive styles for modal image -->
+        <style>
+          @media (max-width: 767.98px) {
+            .modal-image-ratio { --bs-aspect-ratio: 50%; }
+          }
+          @media (min-width: 768px) {
+            .modal-image-ratio { --bs-aspect-ratio: 100%; }
+          }
+          .portfolio-modal.modal .modal-content {
+            padding-top: 0;
+            padding-bottom: 0;
+          }
+        </style>
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="modal-decluttering" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <button type="button" class="btn-close ms-auto me-2 mt-2" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="container py-3">
+              <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
+                  <div class="modal-body p-0">
+                    <div class="row g-3">
+                      <div class="col-12 col-md-5">
+                        <div class="ratio modal-image-ratio">
+                          <img class="w-100 h-100" style="object-fit: cover; object-position: center;" src="assets/img/portfolio/decluttering.jpg" alt="Decluttering and Organising">
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-7">
+                        <h3 class="h4 h3-md">Decluttering and Organising</h3>
+                        <div class="small small-md">
+                          <p>My decluttering and organising service is for you if you are having trouble creating and maintaining organisation in any part of your living space. I can help you with one area (like a pantry or wardrobe), or we can dig right in and do the whole room - or the whole home! I start by chatting with you about your goals for the space, and any accessibility needs or special requests you may have. Then we can either work together decluttering, where I help you choose items to donate or discard, or you can sit back and let me organise your space without letting anything go.</p>
+        <p>Decluttering and organising can be done over several sessions on an ongoing basis, or in one session – this all depends upon the size of the space and complexity of the task, and we will discuss a suitable timeframe in our initial consultation. I can also add on a deep clean of the home when the organising is finished, for that finishing touch! I am able to facilitate rubbish removal as well as small donations to op-shops (based on suitability of items and at the op-shop’s discretion).</p>
+        
+                        </div>
+                        <div class="mt-3">
+                          <button class="btn btn-primary" data-bs-dismiss="modal" type="button">Contact me</button>
+                          <button class="btn btn-outline-secondary" data-bs-dismiss="modal" type="button">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>      <!-- Scoped responsive styles for modal image -->
+        <style>
+          @media (max-width: 767.98px) {
+            .modal-image-ratio { --bs-aspect-ratio: 50%; }
+          }
+          @media (min-width: 768px) {
+            .modal-image-ratio { --bs-aspect-ratio: 100%; }
+          }
+          .portfolio-modal.modal .modal-content {
+            padding-top: 0;
+            padding-bottom: 0;
+          }
+        </style>
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="modal-deep-cleaning" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <button type="button" class="btn-close ms-auto me-2 mt-2" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="container py-3">
+              <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
+                  <div class="modal-body p-0">
+                    <div class="row g-3">
+                      <div class="col-12 col-md-5">
+                        <div class="ratio modal-image-ratio">
+                          <img class="w-100 h-100" style="object-fit: cover; object-position: center;" src="assets/img/portfolio/deep-cleaning.jpg" alt="Deep Cleaning">
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-7">
+                        <h3 class="h4 h3-md">Deep Cleaning</h3>
+                        <div class="small small-md">
+                          <p>Has your home or living space really got away from you? I understand, and I am here to help. If you are worried that your home has got to the point where it is no longer sanitary, or if you are simply overwhelmed by the task ahead, I can provide a deep, industrial clean for you. This can be for one room that you just can’t tackle alone, such as the kitchen, or it can be for the whole house. I provide a discreet, kind, and compassionate service, with my only goal being to make you feel safe and comfortable in your own space again.</p>
+        
+                        </div>
+                        <div class="mt-3">
+                          <button class="btn btn-primary" data-bs-dismiss="modal" type="button">Contact me</button>
+                          <button class="btn btn-outline-secondary" data-bs-dismiss="modal" type="button">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>      <!-- Scoped responsive styles for modal image -->
+        <style>
+          @media (max-width: 767.98px) {
+            .modal-image-ratio { --bs-aspect-ratio: 50%; }
+          }
+          @media (min-width: 768px) {
+            .modal-image-ratio { --bs-aspect-ratio: 100%; }
+          }
+          .portfolio-modal.modal .modal-content {
+            padding-top: 0;
+            padding-bottom: 0;
+          }
+        </style>
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="modal-hoarding" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <button type="button" class="btn-close ms-auto me-2 mt-2" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="container py-3">
+              <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
+                  <div class="modal-body p-0">
+                    <div class="row g-3">
+                      <div class="col-12 col-md-5">
+                        <div class="ratio modal-image-ratio">
+                          <img class="w-100 h-100" style="object-fit: cover; object-position: center;" src="assets/img/portfolio/hoarding.jpg" alt="Hoarding and Extreme Clutter">
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-7">
+                        <h3 class="h4 h3-md">Hoarding and Extreme Clutter</h3>
+                        <div class="small small-md">
+                          <p>Hoarding disorder is a complicated, isolating condition, but it is more common than you might think. If yourself or someone you know is struggling to let items go, while bringing more and more items into their already cluttered living space, seeking external help can be highly beneficial. I have extensive experience working with people who struggle with hoarding, and I am not here to simply come into your home and throw everything away. I am here to chat openly and honestly with you about your items and collections, what they mean to you, and what we might do with those items which are no longer serving a purpose to you. I aim to provide a holistic, ongoing approach to my hoarding clients and guide them through the difficult, yet necessary, process of letting items go. I also provide ongoing sessions and follow ups, to ensure the space is being maintained and to help with any extra cleaning and re-organising that may be necessary in the future.</p>
+        
+                        </div>
+                        <div class="mt-3">
+                          <button class="btn btn-primary" data-bs-dismiss="modal" type="button">Contact me</button>
+                          <button class="btn btn-outline-secondary" data-bs-dismiss="modal" type="button">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>      <!-- Scoped responsive styles for modal image -->
+        <style>
+          @media (max-width: 767.98px) {
+            .modal-image-ratio { --bs-aspect-ratio: 50%; }
+          }
+          @media (min-width: 768px) {
+            .modal-image-ratio { --bs-aspect-ratio: 100%; }
+          }
+          .portfolio-modal.modal .modal-content {
+            padding-top: 0;
+            padding-bottom: 0;
+          }
+        </style>
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="modal-deceased-estate" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <button type="button" class="btn-close ms-auto me-2 mt-2" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="container py-3">
+              <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
+                  <div class="modal-body p-0">
+                    <div class="row g-3">
+                      <div class="col-12 col-md-5">
+                        <div class="ratio modal-image-ratio">
+                          <img class="w-100 h-100" style="object-fit: cover; object-position: center;" src="assets/img/portfolio/deceased-estate.jpg" alt="Deceased Estate">
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-7">
+                        <h3 class="h4 h3-md">Deceased Estate</h3>
+                        <div class="small small-md">
+                          <p>Being left as an executor after someone passes away is one of the most stressful things one can go through - having been in this position myself, I know first hand. Sorting a loved one’s home after they have passed is emotional and overwhelming, but I can provide the helping hand that you need. I can help you sort through belongings, pack them up, and help you with the logistics of transportation and storage. I can also provide a full home clean when we have sorted all the remaining belongings, to get the house spick and span and ready for the market, or for the next occupant. Consider me a “one stop shop” for your deceased estate needs, and relieve the pressure of your work as an executor.</p>
+        
+                        </div>
+                        <div class="mt-3">
+                          <button class="btn btn-primary" data-bs-dismiss="modal" type="button">Contact me</button>
+                          <button class="btn btn-outline-secondary" data-bs-dismiss="modal" type="button">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>      <!-- Scoped responsive styles for modal image -->
+        <style>
+          @media (max-width: 767.98px) {
+            .modal-image-ratio { --bs-aspect-ratio: 50%; }
+          }
+          @media (min-width: 768px) {
+            .modal-image-ratio { --bs-aspect-ratio: 100%; }
+          }
+          .portfolio-modal.modal .modal-content {
+            padding-top: 0;
+            padding-bottom: 0;
+          }
+        </style>
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="modal-end-of-lease" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <button type="button" class="btn-close ms-auto me-2 mt-2" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="container py-3">
+              <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
+                  <div class="modal-body p-0">
+                    <div class="row g-3">
+                      <div class="col-12 col-md-5">
+                        <div class="ratio modal-image-ratio">
+                          <img class="w-100 h-100" style="object-fit: cover; object-position: center;" src="assets/img/portfolio/end-of-lease.jpg" alt="Online Help">
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-7">
+                        <h3 class="h4 h3-md">Online Help</h3>
+                        <div class="small small-md">
+                          <p>Do you live outside of my service area, but would really like some help with your home? Even if I can’t be there personally, I can still help you get started. Through video calls, I will provide an initial consultation to learn about your situation and understand where you are struggling – that might be with too much clutter, keeping on top of regular cleaning, or bringing too many items into your home. From there, I will write you a unique plan with goals, strategies, and checklists to help you take control of your space. With regular check ins to keep you accountable, help might not be as far away as you think.</p>
+        
+                        </div>
+                        <div class="mt-3">
+                          <button class="btn btn-primary" data-bs-dismiss="modal" type="button">Contact me</button>
+                          <button class="btn btn-outline-secondary" data-bs-dismiss="modal" type="button">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>      <!-- Scoped responsive styles for modal image -->
+        <style>
+          @media (max-width: 767.98px) {
+            .modal-image-ratio { --bs-aspect-ratio: 50%; }
+          }
+          @media (min-width: 768px) {
+            .modal-image-ratio { --bs-aspect-ratio: 100%; }
+          }
+          .portfolio-modal.modal .modal-content {
+            padding-top: 0;
+            padding-bottom: 0;
+          }
+        </style>
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="modal-downsizing" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <button type="button" class="btn-close ms-auto me-2 mt-2" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="container py-3">
+              <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
+                  <div class="modal-body p-0">
+                    <div class="row g-3">
+                      <div class="col-12 col-md-5">
+                        <div class="ratio modal-image-ratio">
+                          <img class="w-100 h-100" style="object-fit: cover; object-position: center;" src="assets/img/portfolio/downsizing.jpg" alt="Downsizing and Relocation">
+                        </div>
+                      </div>
+                      <div class="col-12 col-md-7">
+                        <h3 class="h4 h3-md">Downsizing and Relocation</h3>
+                        <div class="small small-md">
+                          <p>Have you got an elderly relative moving into aged care? Or perhaps your children have moved out and you are looking to move into a smaller, more manageable home? Whatever your circumstances, I can help you with the difficult task of fitting a lifetime’s worth of memories into a much smaller space. Working together with you, we can sort through items, deciding what to keep, donate, sell, or discard, in a way that honours their significance and value.</p>
+        <p>I can also package in a full home clean to have the original home spotless to hit the market or to be ready for the next tenant.</p>
+        
+                        </div>
+                        <div class="mt-3">
+                          <button class="btn btn-primary" data-bs-dismiss="modal" type="button">Contact me</button>
+                          <button class="btn btn-outline-secondary" data-bs-dismiss="modal" type="button">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>  </div>
+  </section>
+
+<section class="page-section" id="reviews">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="section-heading text-uppercase">Reviews</h2>
+  
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="review">
+            <div class="review-header">
+              <h3>Karen Trounce</h3>
+              <img class="stars" src="/assets/stars-5.svg" alt="5 stars">
+              <h4>So happy with the result.</h4>
+            </div>
+            <p>I would totally recommend Space For Your Mind. I was moving into my partners flat and he was a heavy smoker for years so the place had nicotine stains and smelt very musty plus it hadn’t been cleaned properly for a long time. Char was amazing! From the initial email contact to the walk through they made me feel very confident that it could be done easily and nothing was a problem. They definitely made me feel at ease and took the pressure off a big move for me. I am so happy with the result and will be recommending them to all of my family and friends.</p>
+        
+            <p><b>Date of experience:</b> 14 July 2025</p>
+            <a href="https://au.trustpilot.com/reviews/68807ae5dc514279a2ba2d60" target="_blank">View on Trustpilot</a>
+          </div>
+        </div>      <div class="col-md-6 col-lg-4">
+          <div class="review">
+            <div class="review-header">
+              <h3>Paige</h3>
+              <img class="stars" src="/assets/stars-5.svg" alt="5 stars">
+              <h4>Char is absolutely incredible</h4>
+            </div>
+            <p>Char is absolutely incredible, made me feel so comfortable and did an outstanding job. What was so overwhelming to me, was handled so methodically and professionally, with warmth and attention to detail. Having someone in your home that you can trust and makes you feel so comfortable is crucial. Can’t thank you enough Char!!! Highly highly recommend.</p>
+        
+            <p><b>Date of experience:</b> 12 June 2025</p>
+            <a href="https://au.trustpilot.com/reviews/685d092bf730c6adc29a6f4d" target="_blank">View on Trustpilot</a>
+          </div>
+        </div>      <div class="col-md-6 col-lg-4">
+          <div class="review">
+            <div class="review-header">
+              <h3>Grace</h3>
+              <img class="stars" src="/assets/stars-5.svg" alt="5 stars">
+              <h4>Helpful and informative!</h4>
+            </div>
+            <p>Our goal was to clean out the garage and get Char’s advice on the interior of the house. They worked very quickly on their own and grouped big things together while making space so we could sort things in the garage. They also gave us a few tips on where and how to dispose recyclables like big cardboard boxes and textiles. As for the interior consulting, we looked at existing systems and brainstormed ideas on how to keep things tidy. Having Char there as a "body double" also enabled me to do things I normally found difficult to do, like putting away clean laundry and making low-stake decisions to dispose certain things I no longer need.</p>
+        
+            <p><b>Date of experience:</b> 04 June 2025</p>
+            <a href="https://au.trustpilot.com/reviews/6856353a9f56465b80bbbc6e" target="_blank">View on Trustpilot</a>
+          </div>
+        </div>      <div class="col-md-6 col-lg-4">
+          <div class="review">
+            <div class="review-header">
+              <h3>Lisa</h3>
+              <img class="stars" src="/assets/stars-5.svg" alt="5 stars">
+              <h4>Great!!</h4>
+            </div>
+            <p>Char is excellent and I’d definitely recommend them for both cleaning and organising. They were on time, organised, communicated with me well before the date of the booking and upon their arrival I felt at ease (big for someone who doesn’t like people in their home very much!). Char was extremely thorough with cleaning my 1br apartment, was friendly to my slightly nervous dog, and helped so much with organising my cluttered wardrobe! I’d definitely recommend Char and will not hesitate to book them in again in the future.</p>
+        
+            <p><b>Date of experience:</b> 30 May 2025</p>
+            <a href="https://au.trustpilot.com/reviews/6843c34c8e0bd909ac9bc8b9" target="_blank">View on Trustpilot</a>
+          </div>
+        </div>      <div class="col-md-6 col-lg-4">
+          <div class="review">
+            <div class="review-header">
+              <h3>David Ma</h3>
+              <img class="stars" src="/assets/stars-5.svg" alt="5 stars">
+              <h4>Amazing, professional, compassionate and kind cleaner</h4>
+            </div>
+            <p>Char was amazing and helped me clean up a chaotic garage, creating space for all my things and giving me directions for keeping my home organised. Char was very kind and understanding.</p>
+        
+            <p><b>Date of experience:</b> 04 June 2025</p>
+            <a href="https://au.trustpilot.com/reviews/6843ea8dbd2cf6a2185cfefb" target="_blank">View on Trustpilot</a>
+          </div>
+        </div>      <div class="col-md-6 col-lg-4">
+          <div class="review">
+            <div class="review-header">
+              <h3>Emily</h3>
+              <img class="stars" src="/assets/stars-5.svg" alt="5 stars">
+              <h4>No-stress results</h4>
+            </div>
+            <p>Char was so thorough and efficient in their work. House was spotless and full bond returned!
+        Their rates are competitive and their list of services covered was more comprehensive than others I got quotes from. Very happy.</p>
+        
+            <p><b>Date of experience:</b> 03 June 2025</p>
+            <a href="https://au.trustpilot.com/reviews/6842a69428fa077648e5c803" target="_blank">View on Trustpilot</a>
+          </div>
+        </div>    </div>
+    </div>
+  
+  
+  
+  
+  </section>
+
+<!-- Contact-->
+<section class="page-section" id="contact">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="section-heading text-uppercase">Contact Char!</h2>
+      <h3 class="section-subheading text-muted">
+        Email: <a href="mailto:char@spaceforyourmind.com.au">char@spaceforyourmind.com.au</a>
+        <br />
+        Instagram: <a href="https://www.instagram.com/spaceforyourmindaus/" target="_blank">@spaceforyourmindaus</a>
+      </h3>
+    </div>
+
+  </div>
+</section>
+
+
+    <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8Q9TPTJ2Y5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-8Q9TPTJ2Y5');
+  </script>
+</body>
+
+</html>
